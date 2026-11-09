@@ -41,7 +41,7 @@ public class Main {
         lista.get(4).setEdad(21);
         lista.get(4).imprimirdatos();
 
-        System.out.println("\n-------------------Selt---------------------");
+        System.out.println("\n-----------------Implementación de Selt---------------------");
         Set<String>nombres = new HashSet<>();
         nombres.add("Melva Suarez");
         nombres.add("Pepe");
@@ -64,7 +64,7 @@ public class Main {
         for(Persona p : nombres2){
             System.out.println(p.descripcion());
         }
-        System.out.println("-----------------------HashMap----------------------");
+        System.out.println("------------Implementación de HashMap----------------------");
         Map<String, Persona> codigounico = new HashMap<>();
         codigounico.put("e01",persona);
         codigounico.put("e02",persona2);

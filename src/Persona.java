@@ -13,6 +13,7 @@ public class Persona {
         setEdad(edad);
         setEstatura(estatura);
     }
+
     public Persona(String nombre){
         this.nombre = nombre;
     }
@@ -36,16 +37,15 @@ public class Persona {
         }else{this.estatura = estatura;}
     }
 
-    // método personalizado
+    // Método personalizado
     public String descripcion(){
-
         return "Persona: "+nombre +
                 "\nEdad: "+edad +
                 "\nEstatura: "+estatura;
     }
 
     public void imprimirdatos(){
-        System.out.println("\n---------------------------------------------------");
+        System.out.println("\n-----------------Imprimir Datos----------------------------------");
         System.out.println("Nombre: "+nombre);
         System.out.println("Edad: "+ edad);
         System.out.println("Estatura: "+ estatura);
@@ -69,6 +69,4 @@ public class Persona {
     public int hashCode() {
         return Objects.hash(nombre, edad, estatura);
     }
-
-
 }
