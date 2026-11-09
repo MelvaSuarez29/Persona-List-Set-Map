@@ -43,10 +43,10 @@ Este repositorio contiene resolución de la siguiente actividad:
 
 | Método | Descripción |
 |--------|-------------|
-| `ingresarPersonas(Scanner)` | ⭐ Función principal: lee personas hasta que el usuario escribe `0`. |
-| `leerEntero(Scanner, String)` | Helper: validación segura de `int`. |
-| `leerFloat(Scanner, String)` | Helper: validación segura de `float` (acepta `,` o `.`). |
-| `main(String[])` | Demostración de `List`, `Set` y `Map`. |
+| ingresarPersonas(Scanner) | Función principal: lee personas hasta que el usuario escribe `0`. |
+| leerEntero(Scanner, String) | Helper: validación segura de `int`. |
+| leerFloat(Scanner, String) | Helper: validación segura de `float` (acepta `,` o `.`). |
+| main(String[]) | Demostración de `List`, `Set` y `Map`. |
 
 ---
 
